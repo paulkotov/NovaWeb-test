@@ -1,0 +1,15 @@
+.app {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+
+    &_header {
+      height: 50px;
+      background-color: rgb(216, 241, 250);
+  
+      & > h3 {
+        font-family: monospace;
+      }
+    }
+    &_main{
+      background-color: rgb(197, 195, 195)
+    }
+  }
